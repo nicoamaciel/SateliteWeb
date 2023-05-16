@@ -1,0 +1,331 @@
+body{
+	font: 15px Arial, Helvetica, sans-serif; /*Todo lo del body que no tenga su estilo propio*/
+	padding: 0;
+	margin: 0;
+	background-color: #24282b; /*Color de fondo*/
+}
+
+/* Estilo globales  */
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1{
+	height: 38px;
+	background-color: #23003f;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ccc;
+}
+
+/* Encabezado */
+
+header{
+	background-color: #24282b;
+	color: #ccc;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #c77fff;
+}
+
+header a{
+	color: #ccc;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: 16px;	
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #marca{
+	float: left;
+}
+
+header #marca h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .resaltado, header .actual a{
+	color: #c77fff;
+	font-weight: bold; /*Negrita*/
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/* Cabecera con imagen */
+
+#cabecera{
+	min-height: 200px;
+	background: url('../img/cabeceraC.jpg') no-repeat 0 -200px; /*Imagen de fondo*/
+	text-align: center;
+	/*font-weight: bold; Negrita*/
+	color: #cccccc;
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 55px;
+	/*margin-bottom: 10px;*/
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+/*Mi fotito */
+#cabecera .contenedor img{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Cajas */
+
+#cajas{
+	margin-top: 0.5px;
+	background: #23003f;
+	color: #ccc;
+}
+
+#cajas .caja{/*Visualizacion de cajas*/
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#cajas .caja img{
+	width: 90px;
+}
+
+/*Color boton fiero*/
+#cajas .caja a{
+	color: #ccc;
+}
+
+/*Botones*/
+#cajas .btnProyec{
+	background-color: #24282b;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	color:#fff;
+	border-radius: 10px;
+}
+
+#cajas .btnProyec2{
+	background-color: #24282b;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	color:#fff;
+	border-radius: 10px;
+}
+
+#cajas .btnProyec:hover{
+	background: #6b00bf;
+}
+
+#cajas .btnProyec2:hover{
+	background: #6b00bf;
+}
+
+/* Main-Columna */
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+/* Servicios */
+ul#proyectos li{ /*Para todas las etiquetas li que este dentro de servicios*/
+	/* list-style: none; */
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 2px; /*Margen en la parte de abajo!*/
+	background-color: #cccccc;
+	/*font-weight: bold; Negrita*/
+	height: 250px; /*Tamaño cajitas proyectos*/
+	width: 1000px;
+}
+
+#sharp1{
+	justify-content: center;
+	padding: 20px;
+	margin-right: 10px;
+	float: right
+	
+}
+
+#cmasmas{
+	justify-content: center;
+	padding: 20px;
+	margin-right: 10px;
+	float: right
+	
+}
+
+
+#proyectos h1 {
+	color: #ccc;
+	
+}
+
+
+
+#main .contenedor{ 	
+color:black;/*Color de letra*/
+}
+
+
+/*Contacto*/
+#contact{
+	min-height: 200px;
+	background: url('../img/cabeceraC.jpg') no-repeat 0 -200px; /*Imagen de fondo*/
+	text-align: left;
+	color: #cccccc;
+}
+
+.contenedor .form .form-header .form-title{
+	font-weight: normal;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span {
+	color: #fff;
+}
+
+.contenedor .form{
+	background: rgba(0,0,0,0.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+}
+
+.contenedor .form .form-label{
+	display: block;
+	font-size: 16px;
+	position: relative;
+}
+
+.contenedor .form .form-input, .form-textarea{
+	background: rgba(0, 0, 0, .7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #23003f;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+
+}
+
+.contenedor .form .form-textarea{
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+
+}
+
+.contenedor .form .btn-submit{
+	width: 100%;
+	outline: none;
+	background:#23003f;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.contenedor .form .btn-submit:hover{
+	background: #6b00bf;
+}
+
+
+
+/* footer o pie de pagina */
+
+footer{
+	padding: 20px;
+	margin-top: 0.5px;
+	color: #e6e6e6;
+	background-color: #24282b;
+	text-align: center;
+}
+
+
+/*Media Queries - responsive */
+
+@media(max-width: 768px){
+	header #marca,
+	header nav,
+	header nav li,
+	#boletin h1,
+	#boletin form,
+	#cajas .caja,
+	article#main-col,
+	aside#lateral{
+		float: none;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+
+	#boletin h1{
+		margin-top: 40px;
+	}
+
+	#boletin button{
+		display: block;
+		width: 100%;
+	}
+
+	#boletin form input[type="email"]{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	input, textarea{
+		width: 98%;
+	}
+}
+
+
