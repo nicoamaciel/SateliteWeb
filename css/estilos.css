@@ -79,7 +79,7 @@ header a:hover{
 
 #cabecera{
 	min-height: 200px;
-	max-width: 100%;
+	width: 50%;
 	background: url('../img/cabeceraC.jpg') no-repeat 0 -200px; /*Imagen de fondo*/
 	text-align: center;
 	/*font-weight: bold; Negrita*/
