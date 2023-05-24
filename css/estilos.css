@@ -208,6 +208,8 @@ color:black;/*Color de letra*/
 #contact{
 	min-height: 200px;
 	background: url('../img/cabeceraC.jpg') no-repeat 0 -200px; /*Imagen de fondo*/
+	background-attachment: fixed;
+	background-size: cover;
 	text-align: left;
 	color: #cccccc;
 }
