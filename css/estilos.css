@@ -170,10 +170,16 @@ ul#proyectos li{
 	border: 1px solid #ccc;
 	margin-bottom: 2px; /*Margen en la parte de abajo!*/
 	background-color: #cccccc;
-	justify-content: center;
 	/*font-weight: bold; Negrita*/
 	height: 250px; /*Tamaño cajitas proyectos*/
-	width: 1000px;
+	width: 100%;
+}
+
+#main{
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+
 }
 
 #sharp1{
