@@ -169,13 +169,10 @@ ul#proyectos li{
 	padding: 10px;
 	border: 1px solid #ccc;
 	margin-bottom: 2px; /*Margen en la parte de abajo!*/
-	background-attachment: fixed;
-	/*Ajuste resposive de fondo*/
-	background-size: cover;
 	background-color: #cccccc;
 	/*font-weight: bold; Negrita*/
 	height: 250px; /*Tamaño cajitas proyectos*/
-	width: 1000px;
+	width: 50%;
 }
 
 #sharp1{
